@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Darryl Hannan</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,44 +21,19 @@
             <div class="container">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#home">Home</a>
+                  <a class="nav-link" href="#recent">Recent News</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#wexp">Experience</a>
+                  <a class="nav-link" href="#projs">Papers/Projects</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#edu">Education</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#wexp">Work Experience</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="#awards">Awards</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projs">Papers/Projects</a>
-                </li>
-              </ul>
-            </div>
-            <div class="container">
-              <ul class="navbar-nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/darryl-hannan-a33563205/" target="_blank"><i class="bi bi-linkedin" style="font-size: 1.5rem"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/hannandarryl" target="_blank"><i class="bi bi-github" style="font-size: 1.5rem"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://twitter.com/hannandarryl" target="_blank"><i class="bi bi-twitter" style="font-size: 1.5rem"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://scholar.google.com/citations?user=WjRBBYYAAAAJ&hl=en" target="_blank"><i class="bi bi-mortarboard-fill" style="font-size: 1.5rem"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a rel="me" href="https://sigmoid.social/@hannandarryl" class="nav-link", target="_blank"><i class="bi bi-mastodon" style="font-size: 1.5rem"></i></a>"
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Resume.pdf" target="_blank"><p  style="font-size: 1.5rem">Resume</p></a>
                 </li>
               </ul>
             </div>
@@ -87,40 +62,88 @@
               <h5 class="text-center">dwh48 {at} drexel {dot} edu</h5>
             </div>
           </div>
+          <div class="row  justify-content-center text-center">
+            <div class="col">
+                <a href="https://www.linkedin.com/in/darryl-hannan-a33563205/" target="_blank"><i class="bi bi-linkedin p-2" style="font-size: 1.5rem"></i></a>
+                <a href="https://github.com/hannandarryl" target="_blank"><i class="bi bi-github p-2" style="font-size: 1.5rem"></i></a>
+                <a href="https://twitter.com/hannandarryl" target="_blank"><i class="bi bi-twitter p-2" style="font-size: 1.5rem"></i></a>
+                <a href="https://scholar.google.com/citations?user=WjRBBYYAAAAJ&hl=en" target="_blank"><i class="bi bi-mortarboard-fill p-2" style="font-size: 1.5rem"></i></a>
+                <a rel="me" href="https://sigmoid.social/@hannandarryl" target="_blank"><i class="bi bi-mastodon p-2" style="font-size: 1.5rem"></i></a>
+                <a class="p-2" href="Resume.pdf" target="_blank" style="font-size: 1.5rem">Resume</a>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="row p-3" id="skills">
+        <p>I'm a fifth year PhD student and NSF GRFP Fellow at Drexel University. I'm a member of the SPARSE lab supervised by Dr. Edward Kim. I've worked
+          on a variety of tasks spanning NLP and computer vision. A number of the projects that I've worked on in the past have focused on question answering:
+          multimodal VQA style tasks, span-based QA, coversational QA, etc. More recently, I have been working in the medical domain developing ultrasound
+          classificaiton models.
+        </p>
+      </div>
+
+      <div class="row p-3" id="recent">
         <div class="col">
-              <h4 class="text-center"><strong>Areas of Expertise</strong></h4>
-                <p class="text-center">
-                  Machine Learning |
-                  Natural Language Processing |
-                  Computer Vision |
-                  Deep Learning
-                </p>
-        </div>
-        <div class="col">
-              <h4 class="text-center"><strong>Technical Skills</strong></h4>
-                <p class="text-center">
-                  Python |
-                  Linux |
-                  Git |
-                  SQL (Oracle) |
-                  PyTorch |
-                  Tensorflow |
-                  Keras |
-                  NumPy |
-                  Pandas |
-                  SciKit-Learn |
-                  Matplotlib |
-                  Beautiful Soup |
-                  NLTK |
-                  Spacy |
-                  OpenCV |
-                  Amazon Mechanical Turk
-                </p>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Recent News</strong></h2>
+              <ul>
+                <li>October 2023 - Paper Accepted at IAAI 2023</li>
+                <li>June 2023 - Joined Drexel University as a PhD Student</li>
+              </ul>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row p-3" id="projs">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Papers/Projects</strong></h2>
+              <ul>
+                <li><a href="https://arxiv.org/abs/2212.03282" target="_blank">MobilePTX: Sparse Coding for Pneumothorax Detection Given Limited Training Examples (IAAI 2023)</a></li>
+                <li><a href="https://arxiv.org/abs/2209.06192" target="_blank">StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation (ECCV 2022)</a></li>
+                <li><a href="https://arxiv.org/abs/2105.10026" target="_blank">Improving Generation and Evaluation of Visual Stories via Semantic Consistency (NACCL 2021)</a></li>
+                <li><a href="https://arxiv.org/abs/2001.08034" target="_blank">ManyModalQA: Modality Disambiguation and QA over Diverse Inputs (AAAI 2020)</a></li>
+                <li><a href="https://arxiv.org/abs/1711.07998" target="_blank">Deep Sparse Coding for Invariant Halle Berry Neurons (CVPR 2018)</a></li>
+                <li><a href="https://github.com/hannandarryl/EmojisAndWeather" target="_blank">Emojis and Weather (CCSCNE 2018)</a></li>
+                <li><a href="https://github.com/hannandarryl/SeniorProject">Learning the McGurk Effect from Raw Input</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row p-3" id="edu">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Education</strong></h4>
+                <div class="row pb-3 pt-3">
+                    <p class="fs-5">Drexel University</p>
+                    <p><i>PhD in Computer Science</i></p>
+                    <p>June 2022 - Present</p>
+                </div>
+                <hr>
+                <div class="row pb-3 pt-3">
+                    <p class="fs-5">University of North Carolina at Chapel Hill</p>
+                    <p><i>Masters of Science in Computer Science</i></p>
+                    <p>August 2018 - May 2021</p>
+                    <p>Relevent Courses: Machine Learning, Computer Vision, Advanced Topics in NLP:
+                      Recent Progress in Different Learning Paradigms, and Advanced Topics in NLP: Narrative Understanding</p>
+                </div>
+                <hr>
+                <div class="row pb-3 pt-3">
+                    <p class="fs-5">Villanova University</p>
+                    <p><i>Bachelors of Science in Computer Science (Magna Cum Laude) - Concentration in Cognitive Science</i></p>
+                    <p>August 2014 - May 2018</p>
+                    <p>Relevent Courses: Deep Learning, Statistical Methods, Machine Learning, Linear Algebra for Computing, and Principles of Database Systems</p>
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="row p-3" id="wexp">
@@ -203,36 +226,6 @@
         </div>
       </div>
 
-      <div class="row p-3" id="edu">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title"><strong>Education</strong></h4>
-                <div class="row pb-3 pt-3">
-                    <p class="fs-5">Drexel University</p>
-                    <p><i>PhD in Computer Science</i></p>
-                    <p>June 2022 - Present</p>
-                </div>
-                <hr>
-                <div class="row pb-3 pt-3">
-                    <p class="fs-5">University of North Carolina at Chapel Hill</p>
-                    <p><i>Masters of Science in Computer Science</i></p>
-                    <p>August 2018 - May 2021</p>
-                    <p>Relevent Courses: Machine Learning, Computer Vision, Advanced Topics in NLP:
-                      Recent Progress in Different Learning Paradigms, and Advanced Topics in NLP: Narrative Understanding</p>
-                </div>
-                <hr>
-                <div class="row pb-3 pt-3">
-                    <p class="fs-5">Villanova University</p>
-                    <p><i>Bachelors of Science in Computer Science (Magna Cum Laude) - Concentration in Cognitive Science</i></p>
-                    <p>August 2014 - May 2018</p>
-                    <p>Relevent Courses: Deep Learning, Statistical Methods, Machine Learning, Linear Algebra for Computing, and Principles of Database Systems</p>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="row p-3" id="awards">
         <div class="col">
           <div class="card">
@@ -244,25 +237,6 @@
                 <li><a href="https://www.lanl.gov/projects/national-security-education-center/information-science-technology/summer-schools/applied-machine-learning/index.php">Applied Machine Learning Summer Research Fellowship</a> -
                   10-week summer program at Los Alamos National Laboratory (10% acceptance rate).</li>
                 <li><a href="https://www1.villanova.edu/villanova/provost/crf/undergraduate-research/vurf-travel-grant.html">Villanova CRF Research and Travel Grant</a> - Funding supported work at Los Alamos during the summer of 2017.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row p-3" id="projs">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title"><strong>Papers/Projects</strong></h2>
-              <ul>
-                <li><a href="https://arxiv.org/abs/2212.03282" target="_blank">MobilePTX: Sparse Coding for Pneumothorax Detection Given Limited Training Examples (IAAI 2023)</a></li>
-                <li><a href="https://arxiv.org/abs/2209.06192" target="_blank">StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation (ECCV 2022)</a></li>
-                <li><a href="https://arxiv.org/abs/2105.10026" target="_blank">Improving Generation and Evaluation of Visual Stories via Semantic Consistency (NACCL 2021)</a></li>
-                <li><a href="https://arxiv.org/abs/2001.08034" target="_blank">ManyModalQA: Modality Disambiguation and QA over Diverse Inputs (AAAI 2020)</a></li>
-                <li><a href="https://arxiv.org/abs/1711.07998" target="_blank">Deep Sparse Coding for Invariant Halle Berry Neurons (CVPR 2018)</a></li>
-                <li><a href="https://github.com/hannandarryl/EmojisAndWeather" target="_blank">Emojis and Weather (CCSCNE 2018)</a></li>
-                <li><a href="https://github.com/hannandarryl/SeniorProject">Learning the McGurk Effect from Raw Input</a></li>
               </ul>
             </div>
           </div>
